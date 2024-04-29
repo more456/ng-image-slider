@@ -16,32 +16,44 @@
     "dist/ng-image-slider"
   ],
   "dependencies": {
-    "@angular-devkit/schematics": "^15.0.4",
-    "@angular/animations": "^15.0.4",
-    "@angular/common": "^15.0.4",
-    "@angular/compiler": "^15.0.4",
-    "@angular/core": "^15.0.4",
-    "@angular/forms": "^15.0.4",
-    "@angular/platform-browser": "^15.0.4",
-    "@angular/platform-browser-dynamic": "^15.0.4",
-    "@angular/router": "^15.0.4",
-    "core-js": "^3.4.5",
-    "rxjs": "^6.5.3",
-    "tslib": "^2.0.0",
-    "zone.js": "~0.11.4"
+    "@angular-devkit/schematics": "^17.3.6",
+    "@angular/animations": "^17.3.6",
+    "@angular/common": "^17.3.6",
+    "@angular/compiler": "^17.3.6",
+    "@angular/core": "^17.3.6",
+    "@angular/forms": "^17.3.6",
+    "@angular/platform-browser": "^17.3.6",
+    "@angular/platform-browser-dynamic": "^17.3.6",
+    "@angular/router": "^17.3.6",
+    "core-js": "^3.37.0",hile resolving: ng-image-slider@7.0.1
+    npm ERR! Found: @angular-devkit/build-angular@15.0.4
+    npm ERR! node_modules/@angular-devkit/build-angular
+    npm ERR!   dev @angular-devkit/build-angular@"^17.3.6" from the root project
+    npm ERR!
+    npm ERR! Could not resolve dependency:
+    npm ERR! dev @angular-devkit/build-angular@"^17.3.6" from the root project
+    npm ERR!
+    npm ERR! Conflicting peer dependency: @angular/compiler-cli@17.3.6
+    npm ERR! node_modules/@angular/compiler-cli
+    npm ERR!   peer @angular/compiler-cli@"^17.0.0" from @angular-devkit/build-angular@17.3.6
+    npm ERR!   node_modules/@angular-devkit/build-angular
+    npm ERR!     dev @angular-devkit/build-angular@"^17.3.6" from the root project
+    "rxjs": "^7.8.1",
+    "tslib": "^2.6.2",
+    "zone.js": "~0.14.4"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "^15.0.4",
-    "@angular-devkit/core": "^15.0.4",
-    "@angular/cli": "^15.0.4",
-    "@angular/compiler-cli": "^15.0.4",
-    "@angular/language-service": "^15.0.4",
-    "@types/node": "^12.11.1",
-    "codelyzer": "^6.0.0",
-    "ng-packagr": "^15.0.3",
+    "@angular-devkit/build-angular": "^17.3.6",
+    "@angular-devkit/core": "^17.3.6",
+    "@angular/cli": "^17.3.6",
+    "@angular/compiler-cli": "^17.3.6",
+    "@angular/language-service": "^17.3.6",
+    "@types/node": "^20.12.7",
+    "codelyzer": "^6.0.2",
+    "ng-packagr": "^17.3.0",
     "protractor": "~7.0.0",
-    "ts-node": "~8.3.0",
+    "ts-node": "~10.9.2",
     "tslint": "~6.1.0",
-    "typescript": "~4.8.4"
+    "typescript": "^5.4"
   }
 }
